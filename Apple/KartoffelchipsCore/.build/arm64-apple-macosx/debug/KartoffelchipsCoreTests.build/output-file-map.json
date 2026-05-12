@@ -1,0 +1,26 @@
+{
+  "": {
+    "swift-dependencies": "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/primary.swiftdeps"
+  },
+  "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Tests/KartoffelchipsCoreTests/GameEngineTests.swift": {
+    "dependencies": "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/GameEngineTests.d",
+    "object": "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/GameEngineTests.swift.o",
+    "swiftmodule": "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/GameEngineTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/GameEngineTests.swiftdeps",
+    "diagnostics": "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/GameEngineTests.dia"
+  },
+  "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Tests/KartoffelchipsCoreTests/LaserColorTests.swift": {
+    "dependencies": "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/LaserColorTests.d",
+    "object": "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/LaserColorTests.swift.o",
+    "swiftmodule": "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/LaserColorTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/LaserColorTests.swiftdeps",
+    "diagnostics": "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/LaserColorTests.dia"
+  },
+  "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Tests/KartoffelchipsCoreTests/LevelParserTests.swift": {
+    "dependencies": "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/LevelParserTests.d",
+    "object": "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/LevelParserTests.swift.o",
+    "swiftmodule": "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/LevelParserTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/LevelParserTests.swiftdeps",
+    "diagnostics": "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/LevelParserTests.dia"
+  }
+}

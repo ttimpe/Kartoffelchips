@@ -1,0 +1,887 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCorePackageTests.xctest/Contents/MacOS/KartoffelchipsCorePackageTests",
+      "packagePath" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore",
+      "productName" : "KartoffelchipsCorePackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.KartoffelchipsCore-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/sources",
+      "importPath" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Activator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Cell.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Emitter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/GameBlock.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/GameEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Interface.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/LaserColor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/LevelParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Mirror.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/PortalInput.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/PortalOutput.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Prism.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Receiver.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/TileType.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "KartoffelchipsCore",
+      "moduleOutputPath" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/Modules/KartoffelchipsCore.swiftmodule",
+      "objects" : [
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/Activator.swift.o",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/Cell.swift.o",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/Emitter.swift.o",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/GameBlock.swift.o",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/GameEngine.swift.o",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/Interface.swift.o",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/LaserColor.swift.o",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/LevelParser.swift.o",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/Mirror.swift.o",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/PortalInput.swift.o",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/PortalOutput.swift.o",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/Prism.swift.o",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/Receiver.swift.o",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/TileType.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/include/KartoffelchipsCore-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "kartoffelchipscore"
+      ],
+      "outputFileMapPath" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/Activator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/Cell.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/Emitter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/GameBlock.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/GameEngine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/Interface.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/LaserColor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/LevelParser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/Mirror.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/PortalInput.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/PortalOutput.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/Prism.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/Receiver.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/TileType.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/Modules/KartoffelchipsCore.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Activator.swift",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Cell.swift",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Emitter.swift",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/GameBlock.swift",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/GameEngine.swift",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Interface.swift",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/LaserColor.swift",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/LevelParser.swift",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Mirror.swift",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/PortalInput.swift",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/PortalOutput.swift",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Prism.swift",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Receiver.swift",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/TileType.swift"
+      ],
+      "tempsPath" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.KartoffelchipsCorePackageTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCorePackageTests.build/sources",
+      "importPath" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCorePackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/Modules/KartoffelchipsCoreTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCorePackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "KartoffelchipsCorePackageTests",
+      "moduleOutputPath" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/Modules/KartoffelchipsCorePackageTests.swiftmodule",
+      "objects" : [
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCorePackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCorePackageTests.build/include/KartoffelchipsCorePackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "kartoffelchipscore"
+      ],
+      "outputFileMapPath" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCorePackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCorePackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/Modules/KartoffelchipsCorePackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCorePackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCorePackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.KartoffelchipsCoreTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/sources",
+      "importPath" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Tests/KartoffelchipsCoreTests/GameEngineTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Tests/KartoffelchipsCoreTests/LaserColorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Tests/KartoffelchipsCoreTests/LevelParserTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/Modules/KartoffelchipsCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "KartoffelchipsCoreTests",
+      "moduleOutputPath" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/Modules/KartoffelchipsCoreTests.swiftmodule",
+      "objects" : [
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/GameEngineTests.swift.o",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/LaserColorTests.swift.o",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/LevelParserTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "kartoffelchipscore"
+      ],
+      "outputFileMapPath" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/GameEngineTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/LaserColorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/LevelParserTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/Modules/KartoffelchipsCoreTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Tests/KartoffelchipsCoreTests/GameEngineTests.swift",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Tests/KartoffelchipsCoreTests/LaserColorTests.swift",
+        "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Tests/KartoffelchipsCoreTests/LevelParserTests.swift"
+      ],
+      "tempsPath" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "KartoffelchipsCore" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "KartoffelchipsCore",
+      "-package-name",
+      "kartoffelchipscore",
+      "-c",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Activator.swift",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Cell.swift",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Emitter.swift",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/GameBlock.swift",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/GameEngine.swift",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Interface.swift",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/LaserColor.swift",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/LevelParser.swift",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Mirror.swift",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/PortalInput.swift",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/PortalOutput.swift",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Prism.swift",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Receiver.swift",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/TileType.swift",
+      "-I",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/include/KartoffelchipsCore-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "kartoffelchipscore",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "KartoffelchipsCorePackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "KartoffelchipsCorePackageTests",
+      "-package-name",
+      "kartoffelchipscore",
+      "-c",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCorePackageTests.derived/runner.swift",
+      "-I",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCorePackageTests.build/include/KartoffelchipsCorePackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "kartoffelchipscore",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "KartoffelchipsCoreTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "KartoffelchipsCoreTests",
+      "-package-name",
+      "kartoffelchipscore",
+      "-c",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Tests/KartoffelchipsCoreTests/GameEngineTests.swift",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Tests/KartoffelchipsCoreTests/LaserColorTests.swift",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Tests/KartoffelchipsCoreTests/LevelParserTests.swift",
+      "-I",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "kartoffelchipscore",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "KartoffelchipsCore" : [
+
+    ],
+    "KartoffelchipsCorePackageTests" : [
+      "KartoffelchipsCoreTests",
+      "KartoffelchipsCore"
+    ],
+    "KartoffelchipsCoreTests" : [
+      "KartoffelchipsCore"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCorePackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCorePackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Activator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Cell.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Emitter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/GameBlock.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/GameEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Interface.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/LaserColor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/LevelParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Mirror.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/PortalInput.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/PortalOutput.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Prism.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/Receiver.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Sources/KartoffelchipsCore/TileType.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/sources"
+    },
+    "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCorePackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCorePackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCorePackageTests.build/sources"
+    },
+    "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCorePackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/Activator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/Cell.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/Emitter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/GameBlock.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/GameEngine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/Interface.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/LaserColor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/LevelParser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/Mirror.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/PortalInput.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/PortalOutput.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/Prism.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/Receiver.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCore.build/TileType.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCorePackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/GameEngineTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/LaserColorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/LevelParserTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCorePackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Tests/KartoffelchipsCoreTests/GameEngineTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Tests/KartoffelchipsCoreTests/LaserColorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/Tests/KartoffelchipsCoreTests/LevelParserTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/KartoffelchipsCoreTests.build/sources"
+    },
+    "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/timpe/Developer/Kartoffelchips/Apple/KartoffelchipsCore/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
