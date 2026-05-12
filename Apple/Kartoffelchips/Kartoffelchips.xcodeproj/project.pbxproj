@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E52677932FB367D90052530A /* KartoffelchipsCore in Frameworks */ = {isa = PBXBuildFile; productRef = E52677922FB367D90052530A /* KartoffelchipsCore */; };
+		E52677962FB367F70052530A /* KartoffelchipsCore in Frameworks */ = {isa = PBXBuildFile; productRef = E52677952FB367F70052530A /* KartoffelchipsCore */; };
+		E52677982FB367FC0052530A /* KartoffelchipsCore in Frameworks */ = {isa = PBXBuildFile; productRef = E52677972FB367FC0052530A /* KartoffelchipsCore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		E526774B2FB3645A0052530A /* Kartoffelchips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kartoffelchips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E526775C2FB3645A0052530A /* Kartoffelchips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kartoffelchips.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E52677932FB367D90052530A /* KartoffelchipsCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E52677962FB367F70052530A /* KartoffelchipsCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E52677982FB367FC0052530A /* KartoffelchipsCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +134,7 @@
 				E526774D2FB3645A0052530A /* Kartoffelchips iOS */,
 				E526775D2FB3645A0052530A /* Kartoffelchips tvOS */,
 				E526776D2FB3645A0052530A /* Kartoffelchips macOS */,
+				E52677942FB367F70052530A /* Frameworks */,
 				E526774C2FB3645A0052530A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -137,6 +147,13 @@
 				E526776C2FB3645A0052530A /* Kartoffelchips.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E52677942FB367F70052530A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +176,7 @@
 			);
 			name = "Kartoffelchips iOS";
 			packageProductDependencies = (
+				E52677922FB367D90052530A /* KartoffelchipsCore */,
 			);
 			productName = "Kartoffelchips iOS";
 			productReference = E526774B2FB3645A0052530A /* Kartoffelchips.app */;
@@ -181,6 +199,7 @@
 			);
 			name = "Kartoffelchips tvOS";
 			packageProductDependencies = (
+				E52677952FB367F70052530A /* KartoffelchipsCore */,
 			);
 			productName = "Kartoffelchips tvOS";
 			productReference = E526775C2FB3645A0052530A /* Kartoffelchips.app */;
@@ -203,6 +222,7 @@
 			);
 			name = "Kartoffelchips macOS";
 			packageProductDependencies = (
+				E52677972FB367FC0052530A /* KartoffelchipsCore */,
 			);
 			productName = "Kartoffelchips macOS";
 			productReference = E526776C2FB3645A0052530A /* Kartoffelchips.app */;
@@ -238,6 +258,9 @@
 			);
 			mainGroup = E526773D2FB364590052530A;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E52677912FB367D90052530A /* XCLocalSwiftPackageReference "../KartoffelchipsCore" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E526774C2FB3645A0052530A /* Products */;
 			projectDirPath = "";
@@ -659,6 +682,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		E52677912FB367D90052530A /* XCLocalSwiftPackageReference "../KartoffelchipsCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../KartoffelchipsCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E52677922FB367D90052530A /* KartoffelchipsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KartoffelchipsCore;
+		};
+		E52677952FB367F70052530A /* KartoffelchipsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E52677912FB367D90052530A /* XCLocalSwiftPackageReference "../KartoffelchipsCore" */;
+			productName = KartoffelchipsCore;
+		};
+		E52677972FB367FC0052530A /* KartoffelchipsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E52677912FB367D90052530A /* XCLocalSwiftPackageReference "../KartoffelchipsCore" */;
+			productName = KartoffelchipsCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E526773E2FB364590052530A /* Project object */;
 }

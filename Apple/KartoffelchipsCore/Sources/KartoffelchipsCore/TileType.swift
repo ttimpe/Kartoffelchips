@@ -1,15 +1,16 @@
-/// Tile types matching the JS Tiles enum and the level parser's position-based classification.
+/// Tile types. Raw values match the JS Tiles enum — they are used directly as
+/// sprite frame indices into map.png (a 10-frame horizontal strip, 64 px per frame).
 public enum TileType: Int, Sendable {
-    case clear            = 0
-    case borderTop        = 1
-    case borderBottom     = 2
-    case borderLeft       = 3
-    case borderRight      = 4
-    case cornerLeftTop    = 5
-    case cornerRightTop   = 6
-    case cornerLeftBottom = 7
-    case cornerRightBottom = 8
-    case full             = 9
+    case cornerLeftTop     = 0
+    case cornerLeftBottom  = 1
+    case cornerRightTop    = 2
+    case cornerRightBottom = 3
+    case borderLeft        = 4
+    case borderRight       = 5
+    case borderTop         = 6
+    case borderBottom      = 7
+    case clear             = 8
+    case full              = 9
 
     public var isPassable: Bool { self == .clear }
 }

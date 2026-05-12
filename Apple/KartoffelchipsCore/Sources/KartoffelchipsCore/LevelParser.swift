@@ -136,8 +136,8 @@ public enum LevelParser {
         let top = y == 0; let bottom = y == 11
         let left = x == 0; let right = x == 15
         if top    && left  { return .cornerLeftTop }
-        if top    && right { return .cornerRightTop }
-        if bottom && left  { return .cornerLeftBottom }
+        if top    && right { return .cornerRightTop }  // JS: CORNER_RIGHT_TOP = 2
+        if bottom && left  { return .cornerLeftBottom } // JS: CORNER_LEFT_BOTTOM = 1
         if bottom && right { return .cornerRightBottom }
         if top             { return .borderTop }
         if bottom          { return .borderBottom }

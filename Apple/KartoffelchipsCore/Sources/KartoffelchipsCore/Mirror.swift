@@ -11,11 +11,12 @@ public final class Mirror: GameBlock, @unchecked Sendable {
     public var isPlaced: Bool = false
     public var typeName: String { "Mirror" }
 
+    // All offsets 0 — matching JS where Mirror interfaces use (index + 0) % 4 for direction.
     public var interfaces: [Interface] = [
         Interface(offset: 0, startX: 0.5, startY: 0.5, endX: 0.5, endY: 0.0),
-        Interface(offset: 1, startX: 0.5, startY: 0.5, endX: 1.0, endY: 0.5),
-        Interface(offset: 2, startX: 0.5, startY: 0.5, endX: 0.5, endY: 1.0),
-        Interface(offset: 3, startX: 0.5, startY: 0.5, endX: 0.0, endY: 0.5),
+        Interface(offset: 0, startX: 0.5, startY: 0.5, endX: 1.0, endY: 0.5),
+        Interface(offset: 0, startX: 0.5, startY: 0.5, endX: 0.5, endY: 1.0),
+        Interface(offset: 0, startX: 0.5, startY: 0.5, endX: 0.0, endY: 0.5),
     ]
 
     public init() {}
